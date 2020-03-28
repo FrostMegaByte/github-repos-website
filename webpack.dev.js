@@ -6,7 +6,15 @@ module.exports = merge(common, {
   mode: "development",
   devtool: "none", // Remove eval() from dist/main.js
   output: {
-    filename: "main.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
+  },
+  module: {
+    rules: [
+      {
+        test: /\.s[ac]ss$/i,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+    ],
   },
 });
