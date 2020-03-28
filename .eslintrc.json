@@ -1,0 +1,19 @@
+{
+  //   "env": {
+  //     "browser": true,
+  //     "commonjs": true,
+  //     "es6": true
+  //   },
+  "extends": [
+    "airbnb-base",
+    "prettier",
+    "plugin:node/recommended",
+    "plugin:vue/essential"
+  ],
+  "plugins": ["prettier", "vue"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "func-names": "off"
+  }
+}
