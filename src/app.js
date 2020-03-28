@@ -1,3 +1,5 @@
+import "./main.scss";
+
 fetch("https://api.github.com/users/FrostMegaByte/repos")
   .then((response) => {
     return response.json();
