@@ -1,0 +1,21 @@
+{
+  "name": "github-repos-website",
+  "version": "1.0.0",
+  "description": "Practicing with API calls, Webpack, Typescript and Vue",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrostMegaByte/github-repos-website.git"
+  },
+  "author": "Mark Bekooy",
+  "license": "ISC",
+  "homepage": "https://github.com/FrostMegaByte/github-repos-website#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
